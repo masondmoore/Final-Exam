@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<script src="jquery-1.11.3.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="screen.css">
+		
+	</head>
+    <body>
+        <div id="first">
+			<button>Switcharoo</button>
+		</div>
+		<div id="second">
+			<button>Rainbow</button>
+		</div>
+		<div id="third">
+			<button>Name Changer</button>
+		</div>
+		<div class="name">
+			<h2>Mason</h2>
+				<h2 style="display: none">Moore</h2>
+		</div>
+			<script>
+$( "#first" ).click(function() {
+
+  $( ".name" ).toggle();
+
+});
+</script>
+<script>
+$( "#second" ).click(function() {
+
+  $( ".name" ).toggleClass( "background" );
+
+});
+
+</script>
+
+<script>
+$( "#third" ).click(function() {
+
+  $( "h2" ).toggle();
+
+});
+</script>
+    </body>
+	<script>
+$( "#first" ).click(function() {
+
+  $( ".name" ).toggle();
+
+});
+</script>
+<script>
+$( "#second" ).click(function() {
+
+  $( ".name" ).toggleClass( "background" );
+
+});
+
+</script>
+
+<script>
+$( "#third" ).click(function() {
+
+  $( "h2" ).toggle();
+
+});
+</script>
+</html>
